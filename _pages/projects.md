@@ -4,6 +4,7 @@ title: projects
 permalink: /projects/
 description: Research systems and engineering deployments. Click a card for details.
 nav: true
+nav_zh: 项目
 nav_order: 3
 horizontal: false
 ---

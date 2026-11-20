@@ -15,6 +15,10 @@ Source of my personal academic homepage, built with [al-folio](https://github.co
 | 项目页 | `_projects/` 下每个项目一个 `.md` 文件；图片放 `assets/img/projects/` |
 | CV 页面与 PDF 简历 | `_data/cv.yml`；推送后 `Render a CV` workflow 用 RenderCV 生成 `assets/rendercv/rendercv_output/Weiyi_Wang_CV.pdf` |
 
+## 中英文内容
+
+英文页面保持现有网址，中文版在 `/zh/`。导航栏自动连接同一页面的另一种语言。更新简介、项目或简历时，同步编辑 `_pages/zh/` 中的中文版。动态在同一个 `_news/` 文件中维护英文正文和 `content_zh`。两种语言共用图片、BibTeX 和公开 PDF；中文版简历页面链接的是英文 PDF。
+
 ## 部署（GitHub Pages）
 
 1. 仓库 `OnlyWanggg/onlywanggg.github.io` 的 Settings → Pages → Source 选 **GitHub Actions**。

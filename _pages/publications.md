@@ -4,6 +4,7 @@ permalink: /publications/
 title: publications
 description: Peer-reviewed publications in reverse chronological order. Click Abs / Bib / PDF for details.
 nav: true
+nav_zh: 论文
 nav_order: 2
 ---
 

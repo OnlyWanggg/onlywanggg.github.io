@@ -1,0 +1,8 @@
+{% assign english_url = page.url | remove: 'index.html' %}
+{% assign is_chinese = false %}
+{% if page.lang == 'zh-CN' %}
+  {% assign is_chinese = true %}
+  {% assign english_url = english_url | remove_first: '/zh' %}
+{% endif %}
+{% assign chinese_url = english_url | prepend: '/zh' %}
+{% assign chinese_page = site.pages | where: 'url', chinese_url | first %}

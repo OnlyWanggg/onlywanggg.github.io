@@ -1,0 +1,23 @@
+#navbar .language-switch {
+  margin-inline: auto .65rem;
+  padding: .2rem .55rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: .375rem;
+  color: var(--global-text-color);
+  font-size: .875rem;
+  white-space: nowrap;
+}
+
+#navbar .language-switch:hover,
+#navbar .language-switch:focus-visible {
+  border-color: var(--global-theme-color);
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+@media (min-width: 576px) {
+  #navbar .language-switch {
+    order: 1;
+    margin-inline: .65rem 0;
+  }
+}
