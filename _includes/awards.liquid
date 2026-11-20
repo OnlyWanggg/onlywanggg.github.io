@@ -1,0 +1,19 @@
+{% assign award_title_key = 'title_en' %}
+{% assign award_name_key = 'name_en' %}
+{% if page.lang == 'zh-CN' %}
+  {% assign award_title_key = 'title_zh' %}
+  {% assign award_name_key = 'name_zh' %}
+{% endif %}
+{% for group in site.data.awards %}
+  <section class="mb-4">
+    <h2 class="h4">{{ group[award_title_key] | escape }}</h2>
+    <ul class="list-unstyled">
+      {% for award in group.awards %}
+        <li class="d-flex flex-wrap align-items-baseline justify-content-between py-2">
+          <span class="mr-3">{{ award[award_name_key] | escape }}</span>
+          {% if award.years %}<span class="text-muted small">{{ award.years | escape }}</span>{% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+{% endfor %}

@@ -13,6 +13,7 @@ Source of my personal academic homepage, built with [al-folio](https://github.co
 | 会议 / 期刊徽章颜色 | `_data/venues.yml` |
 | 新闻 | `_news/` 下每条一个 `.md` 文件 |
 | 项目页 | `_projects/` 下每个项目一个 `.md` 文件；图片放 `assets/img/projects/` |
+| 获奖页（中英文奖项名称和年份） | `_data/awards.yml`；CV 的奖项摘要独立维护 |
 | CV 页面与 PDF 简历 | `_data/cv.yml`；推送后 `Render a CV` workflow 用 RenderCV 生成 `assets/rendercv/rendercv_output/Weiyi_Wang_CV.pdf` |
 
 ## 中英文内容

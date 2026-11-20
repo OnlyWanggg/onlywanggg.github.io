@@ -1,0 +1,36 @@
+- title_en: Scholarships
+  title_zh: 奖学金
+  awards:
+    - name_en: National Scholarship (Graduate)
+      name_zh: 硕士研究生国家奖学金
+      years: 2025–2026
+    - name_en: Ningbo Future Star Excellent Engineer Scholarship, Shanghai Jiao Tong University
+      name_zh: 上海交通大学宁波未来之星卓越工程师奖学金
+    - name_en: BYD Scholarship
+      name_zh: 比亚迪企业奖学金
+      years: "2024"
+    - name_en: National Scholarship (Undergraduate)
+      name_zh: 本科生国家奖学金
+      years: 2022–2023
+
+- title_en: Competition Awards
+  title_zh: 竞赛奖项
+  awards:
+    - name_en: Honorable Mention, Mathematical Contest in Modeling (MCM/ICM)
+      name_zh: 美国大学生数学建模竞赛 H 奖
+      years: "2024"
+    - name_en: First Prize, 14th National College Students’ Mathematics Competition
+      name_zh: 第十四届全国大学生数学竞赛一等奖
+
+- title_en: Academic Honors
+  title_zh: 荣誉称号
+  awards:
+    - name_en: Outstanding Graduate of Liaoning Province
+      name_zh: 辽宁省优秀毕业生
+      years: "2025"
+    - name_en: Outstanding Graduate of Dalian University of Technology
+      name_zh: 大连理工大学优秀毕业生
+      years: "2025"
+    - name_en: Merit Student of Dalian University of Technology
+      name_zh: 大连理工大学三好学生
+      years: 2022, 2023, 2024
