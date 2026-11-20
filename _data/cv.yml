@@ -1,0 +1,148 @@
+# CV data. It is rendered on the /cv/ page by al-folio and turned into a PDF by
+# RenderCV (.github/workflows/render-cv.yml, output in assets/rendercv/rendercv_output/).
+# Keep the top level to fields RenderCV accepts: name, location, email, phone,
+# website, social_networks, sections (label / summary / address / image make RenderCV fail).
+cv:
+  name: Weiyi Wang
+  location: Shanghai, China
+  email: weiyi_wang@sjtu.edu.cn
+  website: https://onlywanggg.github.io
+  social_networks:
+    - network: GitHub
+      username: OnlyWanggg
+
+  sections:
+    Education:
+      - institution: Shanghai Jiao Tong University
+        location: Shanghai, China
+        area: Electronic Information, School of Computer Science
+        degree: M.Eng.
+        start_date: 2025-09
+        end_date: present
+        highlights:
+          - "GPA: 3.82 / 4.00"
+          - "Research interests: multimodal sensing, edge AI, ubiquitous computing and HCI, IoT"
+          - "Selected courses: Principles and Design of Sensing Systems (A+), Frontiers of Autonomous Driving Technology (A+), Mobile Intelligent Sensing (A), Neural Network Theory and Applications (A)"
+
+      - institution: Dalian University of Technology
+        location: Dalian, China
+        area: Computer Science and Technology
+        degree: B.Eng.
+        start_date: 2021-09
+        end_date: 2025-06
+        highlights:
+          - "Weighted average score: 90.89 / 100, ranked 5 / 143 (top 3.5%)"
+          - "Selected courses: Computer Network Experiments (99), Discrete Mathematics (98), Mathematical Analysis for Engineering (96), Advanced Programming in C++ (96), Compiler Principles (94), Data Structures (93), Artificial Intelligence (93), Operating Systems (92)"
+          - "English: CET-6 (518)"
+
+    Publications:
+      - title: "Eyes-Free, Touch-Free, and Worry-Free: Repurposing Wireless Chargers for Safer In-Car Gesture Interaction"
+        authors:
+          - "**Weiyi Wang**"
+          - Lanqing Yang
+          - Guo Yu
+          - Qinfei Fan
+          - Jeffery Wu
+          - Longyuan Ge
+          - Leo Linqian Gan
+          - Guangtao Xue
+        journal: "Proc. ACM IMWUT, Vol. 10, No. 3, Article 164 (UbiComp 2026)"
+        date: 2026-09
+        doi: 10.1145/3831984
+        # shown on the web page only (RenderCV prints authors / journal / DOI itself)
+        url: https://doi.org/10.1145/3831984
+        publisher: "Proc. ACM IMWUT, Vol. 10, No. 3, Article 164 (UbiComp 2026)"
+        summary: "**Weiyi Wang**, Lanqing Yang, Guo Yu, Qinfei Fan, Jeffery Wu, Longyuan Ge, Leo Linqian Gan, Guangtao Xue"
+
+      - title: "SingSprite: Non-Tactile Appliance Interaction for the Blind through Power-Supply Acoustic Signatures"
+        authors:
+          - Lanqing Yang
+          - "**Weiyi Wang**"
+          - Yongzhao Zhang
+          - Yixin Liu
+          - Yi-Chao Chen
+          - Guangtao Xue
+          - Ahmad Ali
+        journal: "ACM/IEEE SenSys 2026, pp. 933-946, Saint Malo, France"
+        date: 2026-05
+        doi: 10.1145/3774906.3800505
+        url: https://doi.org/10.1145/3774906.3800505
+        publisher: "ACM/IEEE SenSys 2026, pp. 933-946, Saint Malo, France"
+        summary: "Lanqing Yang, **Weiyi Wang**, Yongzhao Zhang, Yixin Liu, Yi-Chao Chen, Guangtao Xue, Ahmad Ali"
+
+    Projects:
+      - name: "MagHarp: In-Car Mid-Air Gesture Interaction by Repurposing Wireless Chargers"
+        start_date: 2024-12
+        end_date: 2026-06
+        summary: "Sole first author, Proc. ACM IMWUT (UbiComp 2026)"
+        highlights:
+          - "Designed a low-cost seat retrofit (conductive fabric on the seat surface) that turns the driver's body into a near-field antenna, capturing hand-induced perturbations of Qi charging signals without modifying the charger or the phone."
+          - "Built a pipeline of background subtraction, harmonic band selection and multi-band stitching, followed by a lightweight CNN-BiLSTM that recognizes 7 gestures (swipe, press, etc.)."
+          - "Reached 97.6% average accuracy on 3,500 samples across 5 chargers and 4 phones."
+
+      - name: "SingSprite: Non-Tactile Appliance Interaction for Blind Users"
+        start_date: 2024-12
+        end_date: 2025-09
+        summary: "Second author (first student author), ACM/IEEE SenSys 2026"
+        highlights:
+          - "Phones and smartwatches identify nearby appliances and their working states from the high-frequency hum of their power supplies, with voice and vibration feedback; no tags or retrofitting needed."
+          - "VMD-based noise removal, an FCN-BLSTM autoencoder for low-sampling-rate microphones, and a multi-stage LSTM (HumNet) for joint appliance and state recognition."
+          - "End-to-end F1 of 0.95 over 100 appliances and 8 kinds of mobile devices; validated in a user study with 16 blind participants."
+
+      - name: "Non-Intrusive Monitoring of Shared Laboratory Instruments"
+        start_date: 2026-02
+        end_date: present
+        summary: "Back-end recognition algorithms and Home Assistant front-end"
+        highlights:
+          - "Infers the working state and real-time rotor speed of closed commercial instruments (e.g., high-speed refrigerated centrifuges) from leaked acoustic hum and low-frequency magnetic fluctuations captured by external microphones and magnetometers."
+          - "Classifies 4 working states (F1 0.885) and regresses continuous speed (mean error about 5% of full speed) in parallel."
+          - "Runs in real time on NVIDIA Jetson with TensorRT, integrated with Home Assistant and a web dashboard for status alerts and reservations; deployed at the SJTU School of Life Sciences."
+
+    Honors and Awards:
+      - name: National Scholarship (Graduate)
+        title: National Scholarship (Graduate)
+        date: 2026
+        summary: Academic year 2025-2026
+      - name: Ningbo Future Star Excellent Engineer Scholarship
+        title: Ningbo Future Star Excellent Engineer Scholarship
+        awarder: Shanghai Jiao Tong University
+      - name: Outstanding Graduate of Liaoning Province
+        title: Outstanding Graduate of Liaoning Province
+        date: 2025
+      - name: Outstanding Graduate of Dalian University of Technology
+        title: Outstanding Graduate of Dalian University of Technology
+        date: 2025
+      - name: BYD Scholarship
+        title: BYD Scholarship
+        date: 2024
+      - name: Honorable Mention, Mathematical Contest in Modeling (MCM/ICM)
+        title: Honorable Mention, Mathematical Contest in Modeling (MCM/ICM)
+        date: 2024
+        awarder: COMAP
+      - name: Merit Student of Dalian University of Technology
+        title: Merit Student of Dalian University of Technology
+        date: 2024
+        summary: Awarded in 2022, 2023 and 2024
+      - name: National Scholarship (Undergraduate)
+        title: National Scholarship (Undergraduate)
+        date: 2023
+        summary: Academic year 2022-2023
+      - name: First Prize, the 14th Chinese Mathematics Competitions
+        title: First Prize, the 14th Chinese Mathematics Competitions
+        summary: National College Students' Mathematics Competition
+
+    Technical Skills:
+      - label: Sensing
+        details: "RF / near-field electromagnetic sensing (HackRF One SDR), acoustic and magnetic sensing, STFT, variational mode decomposition, filtering"
+      - label: Machine learning
+        details: "CNN, BiLSTM / LSTM and autoencoders for time-series and spectrogram data"
+      - label: Edge and systems
+        details: "NVIDIA Jetson, TensorRT, Home Assistant, web dashboards"
+      - label: Programming
+        details: "Python, C++"
+
+    Leadership and Service:
+      - bullet: "Class Monitor, Baowu Class of 2026 (Engineering Master's and PhD Program) and CS Master's Class 25M036, SJTU (2025-present)"
+      - bullet: "Vice Minister, Student Self-Management Committee, Dalian University of Technology (2023-2025)"
+      - bullet: "Peer Mentor of a freshman class, Dalian University of Technology (2023-2025)"
+      - bullet: "Class Monitor of two undergraduate classes, Dalian University of Technology (2022-2025)"

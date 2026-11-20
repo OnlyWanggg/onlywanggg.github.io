@@ -1,0 +1,6 @@
+# Co-author homepages: author names in the publication list become links.
+# Key = last name in lower case; firstname lists the spellings used in papers.bib.
+# Example (fill in real URLs before uncommenting):
+# "xue":
+#   - firstname: ["Guangtao", "G."]
+#     url: https://example.com/guangtao-xue

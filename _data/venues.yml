@@ -1,0 +1,8 @@
+# Venue badges shown next to each publication (key = the `abbr` field in papers.bib).
+"IMWUT":
+  url: https://dl.acm.org/journal/imwut
+  color: "#1f5fa8"
+
+"SenSys":
+  url: https://sensys.acm.org/
+  color: "#b5482b"

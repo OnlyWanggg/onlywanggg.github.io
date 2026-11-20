@@ -1,0 +1,6 @@
+# Google Scholar citation counts used by the publication badges.
+# Filled automatically if you add your scholar_userid to _data/socials.yml and
+# enable an update workflow; empty for now.
+metadata:
+  last_updated: ""
+papers: {}
