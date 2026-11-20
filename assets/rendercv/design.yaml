@@ -4,6 +4,10 @@ design:
   theme: classic
   page:
     size: a4
+    top_margin: 0.55in
+    bottom_margin: 0.55in
+    left_margin: 0.58in
+    right_margin: 0.58in
     show_footer: true
     show_top_note: true
   templates:

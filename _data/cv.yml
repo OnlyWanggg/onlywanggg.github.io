@@ -35,6 +35,12 @@ cv:
           - "Selected courses: Computer Network Experiments (99), Discrete Mathematics (98), Mathematical Analysis for Engineering (96), Advanced Programming in C++ (96), Compiler Principles (94), Data Structures (93), Artificial Intelligence (93), Operating Systems (92)"
           - "English: CET-6 (518)"
 
+    Experience:
+      - company: Shanghai Baosight Software Co., Ltd. (China Baowu)
+        position: Intern
+        start_date: 2026-09-01
+        end_date: present
+
     Publications:
       - title: "Eyes-Free, Touch-Free, and Worry-Free: Repurposing Wireless Chargers for Safer In-Car Gesture Interaction"
         authors:
@@ -87,7 +93,7 @@ cv:
         highlights:
           - "Phones and smartwatches identify nearby appliances and their working states from the high-frequency hum of their power supplies, with voice and vibration feedback; no tags or retrofitting needed."
           - "VMD-based noise removal, an FCN-BLSTM autoencoder for low-sampling-rate microphones, and a multi-stage LSTM (HumNet) for joint appliance and state recognition."
-          - "End-to-end F1 of 0.95 over 100 appliances and 8 kinds of mobile devices; validated in a user study with 16 blind participants."
+          - "End-to-end F1 of 0.95 over 100 appliances and F1 of 0.92 across eight kinds of mobile devices; user study with 16 blind participants."
 
       - name: "Non-Intrusive Monitoring of Shared Laboratory Instruments"
         start_date: 2026-02

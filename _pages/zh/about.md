@@ -16,7 +16,7 @@ social: true
 announcements:
   enabled: true
   scrollable: true
-  limit: 5
+  limit: 7
 ---
 
 你好，我是**王唯逸（Weiyi Wang）**。我于 2025 年 9 月进入[上海交通大学](https://www.sjtu.edu.cn/)计算机学院攻读电子信息硕士，2025 年本科毕业于[大连理工大学](https://www.dlut.edu.cn/)计算机科学与技术专业，专业排名 5/143。
@@ -26,5 +26,7 @@ announcements:
 - **[MagHarp]({{ '/zh/projects/magharp/' | relative_url }})**：复用车载无线充电器实现非接触手势识别，7 种手势的平均识别准确率为 97.6%（IMWUT / UbiComp 2026，唯一第一作者）。
 - **[SingSprite]({{ '/zh/projects/singsprite/' | relative_url }})**：利用电源声学特征辅助盲人用户识别家电及其工作状态，覆盖 100 台家电，端到端 F1 为 0.95（SenSys 2026）。
 - **[实验室仪器监测]({{ '/zh/projects/labmonitor/' | relative_url }})**：利用外置声学和磁场传感器监测仪器，在 NVIDIA Jetson 上使用 TensorRT 实时推理，接入 Home Assistant，已在上海交通大学部署。
+
+自 2026 年 9 月 1 日起，我在中国宝武旗下[上海宝信软件股份有限公司](https://www.baosight.com/about)实习。
 
 欢迎联系我交流移动与普适感知、物联网以及边缘智能方向的研究合作、博士机会与工作机会。

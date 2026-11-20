@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 7
 
 latest_posts:
   enabled: false
@@ -32,5 +32,7 @@ My research spans **multimodal sensing**, **edge AI**, and **ubiquitous computin
 - **[MagHarp]({{ '/projects/magharp/' | relative_url }})**: turns the in-car wireless charger into a touch-free gesture sensor, recognizing 7 gestures with 97.6% accuracy (_IMWUT / UbiComp 2026_, sole first author).
 - **[SingSprite]({{ '/projects/singsprite/' | relative_url }})**: lets blind users identify home appliances and their working states from power-supply acoustic signatures, with an F1 score of 0.95 over 100 appliances (_SenSys 2026_).
 - **[Lab-instrument monitoring]({{ '/projects/labmonitor/' | relative_url }})**: non-intrusive acoustic and magnetic sensing running on NVIDIA Jetson with TensorRT, integrated with Home Assistant and deployed at SJTU.
+
+I have been interning at [Shanghai Baosight Software (China Baowu)](https://www.baosight.com/about) since September 1, 2026.
 
 I am open to research collaborations, as well as PhD and industry opportunities in mobile and ubiquitous sensing, IoT, and edge intelligence.

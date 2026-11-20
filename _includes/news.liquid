@@ -29,6 +29,15 @@
               {% else %}
                 <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
               {% endif %}
+              {% if item.photos and include.limit != true %}
+                {% assign photo_label = item.photo_label %}
+                {% if page.lang == 'zh-CN' %}{% assign photo_label = item.photo_label_zh %}{% endif %}
+                <div class="conference-photos">
+                  {% for photo in item.photos %}
+                    <a href="{{ photo | relative_url }}"><img src="{{ photo | relative_url }}" loading="lazy" alt="{{ photo_label | escape }} · {{ forloop.index }}"></a>
+                  {% endfor %}
+                </div>
+              {% endif %}
             </td>
           </tr>
         {% endfor %}

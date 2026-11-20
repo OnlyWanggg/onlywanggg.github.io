@@ -6,7 +6,6 @@
 {% assign alternate_label = '中文' %}
 {% assign alternate_language = 'zh-CN' %}
 {% assign alternate_title = '切换到中文版' %}
-{% assign menu_label = 'Toggle navigation' %}
 {% assign theme_label = 'Change color theme' %}
 {% assign search_label = 'Open search' %}
 {% if chinese_page %}{% assign alternate_url = chinese_url %}{% endif %}
@@ -18,7 +17,6 @@
   {% assign alternate_label = 'English' %}
   {% assign alternate_language = 'en' %}
   {% assign alternate_title = 'Switch to English' %}
-  {% assign menu_label = '展开或收起导航' %}
   {% assign theme_label = '切换配色主题' %}
   {% assign search_label = '打开搜索' %}
 {% endif %}
@@ -29,14 +27,8 @@
         <a class="navbar-brand title font-weight-lighter" href="{{ home_url | relative_url }}">{{ site_name }}</a>
       {% endif %}
       <a class="language-switch" href="{{ alternate_url | relative_url }}" lang="{{ alternate_language }}" hreflang="{{ alternate_language }}" aria-label="{{ alternate_title }}">{{ alternate_label }}</a>
-      <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="{{ menu_label }}">
-        <span class="icon-bar top-bar"></span>
-        <span class="icon-bar middle-bar"></span>
-        <span class="icon-bar bottom-bar"></span>
-      </button>
-
-      <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav">
-        <ul class="navbar-nav navbar-menu-list flex-nowrap">
+      <div class="navbar-collapse navbar-collapse-main" id="navbarNav">
+        <ul class="navbar-nav navbar-menu-list">
           <li class="nav-item {% if page.url == home_url %}active{% endif %}">
             <a class="nav-link" href="{{ home_url | relative_url }}"{% if page.url == home_url %} aria-current="page"{% endif %}>{{ home_label }}</a>
           </li>
