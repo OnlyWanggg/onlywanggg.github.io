@@ -31,7 +31,7 @@ Source of my personal academic homepage, built with [al-folio](https://github.co
 
 - 删除了模板自带的示例内容，包括博客、书架、课程、示例论文和图片，以及只服务于模板仓库本身的 workflow 和文档。只保留 `deploy.yml` 和 `render-cv.yml` 两个 workflow。
 - `third_party_libraries.download: true`：构建时把 JS/CSS 库、Google Fonts 和图标字体下载到本站，国内访客不再依赖 jsDelivr 和 Google。另外为 Font Awesome 和 Academicons 补充了字体目录的下载地址，否则图标会缺字体。
-- `_includes/news.liquid` 是对 `al_folio_core` 同名文件的本地覆盖，唯一的改动是新闻日期只显示年月。
+- 双语布局覆盖了 al-folio 的首页、导航、页脚和页面元数据。`_includes/news.liquid` 按页面语言显示动态，日期精确到年月。
 - `assets/rendercv/design.yaml` 已按 RenderCV 2.x 重写。`render-cv.yml` 现在显式传入 `--design` 和 `--locale-catalog`，因为 RenderCV 2.x 不会读取 settings.yaml 里写的这两个路径。
 
 ## License

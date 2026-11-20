@@ -15,7 +15,34 @@
   text-decoration: none;
 }
 
-@media (min-width: 576px) {
+@media (max-width: 767.98px) {
+  #navbar .navbar-menu-list {
+    margin-inline-start: 0;
+    align-items: flex-start;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  #navbar .navbar-toggler-main {
+    display: none;
+  }
+
+  #navbar .navbar-collapse-main {
+    display: flex;
+    flex-basis: auto;
+    width: auto;
+  }
+
+  #navbar .navbar-menu-list {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #navbar .navbar-menu-list .nav-link {
+    padding: .5rem;
+  }
+
   #navbar .language-switch {
     order: 1;
     margin-inline: .65rem 0;
